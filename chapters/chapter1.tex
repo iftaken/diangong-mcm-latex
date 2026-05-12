@@ -17,8 +17,8 @@
 使用该模板前，请阅读模板的使用说明文档。下面给出模板使用的大概样式。
 
 \begin{tcode}
-    \documentclass{cumcmthesis}
-    %\documentclass[withoutpreface,bwprint]{cumcmthesis} %去掉封面与编号页
+    \documentclass{main}
+    %\documentclass[withoutpreface,bwprint]{main} %去掉封面与编号页
 
     \title{论文题目}
     \tihao{A}            % 题号
@@ -68,7 +68,7 @@
 
 根据要求，电子版论文提交时需去掉封面和编号页。可以加上 \verb|withoutpreface|  选项来实现，即：
 \begin{tcode}
-    \documentclass[withoutpreface]{cumcmthesis}
+    \documentclass[withoutpreface]{main}
 \end{tcode}
 这样就能实现了。打印的时候有超链接的地方不需要彩色，可以加上 \verb|bwprint| 选项。
 

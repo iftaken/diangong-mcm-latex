@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# CCNU-thesis 初始化脚本
+# diangong-mcm-latex 初始化脚本
 # 用于下载必要的字体资源文件
 
 set -e
@@ -19,7 +19,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 echo "========================================"
-echo "  CCNU-thesis 项目初始化"
+echo "  diangong-mcm-latex 项目初始化"
 echo "========================================"
 echo ""
 
